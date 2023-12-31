@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pya{
+
+    border: 1px solid;
+}
+.first_div{
+    position: fixed;
+    top: 15%;
+    left: 15%;
+}
+body{
+    background: #1f1f1f;
+}
+.payment_from{
+    padding: 50px;
+    /* border: 1px solid gray; */
+    border-radius: 20px;
+    box-shadow: rgba(204, 204, 206, 0.178) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.MAR{
+    margin-left: 15%;
+}
+.cl{
+    background-color: rgba(0, 0, 0, 0.541);filter: blur(1);
+}
+@media only screen and (max-width: 991px) {
+    .MAR{
+        margin-left: 0% ;
+        margin-top: 70px;
+    }
+}

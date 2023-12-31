@@ -82,6 +82,8 @@ body{
 }
 .side{
     position: fixed;
+    /* height: 100vh; */
+    /* bottom: 0px;  */
 }
 .ther_div{
     font-size: 24px; 
@@ -94,16 +96,25 @@ body{
     color: gray; 
     margin-top: 20px
 }
+
 @media only screen and (max-width: 1441px) {
     .side_bar {
         top: 20px;
-        height: 50%;
+        height: 40%;
         overflow-y: auto; /* Enable vertical scrollbar */
     }
 
 }
-
-
+@media only screen and (max-width: 939px) and (min-width: 767){
+    /* .side{
+        margin-left: 50%;
+    } */
+}
+/* @media only screen and (max-width: 767px){
+    .side{
+        margin-right: 50%;
+    }
+} */
 @media only screen and (max-width: 1024px) {
     .ther_div{
         font-size: 15px;
@@ -121,8 +132,10 @@ body{
     }
     .side{
         position: static; 
-        width: 140%;
+        width: 100%;
         top: 0;
+        /* left: 50%; */
+        /* margin-left: 50%; */
     }
     .around_flex{
         flex-wrap: wrap;
@@ -146,12 +159,20 @@ body{
         font-size: 15px;
     }
     .side_bar{
-        height: 60%;    
+        height: 41%;    
         top: 5%;
         right: 40px;
     }
   }
-  
+.buy_button{
+    position: fixed;
+    width: 150px;
+    height: 65px;
+    /* border: 1px solid grey; */
+    top: 20px;
+    border-radius: 10px;
+    right: 10px;
+}
   
 
 .form_flex{
@@ -159,15 +180,21 @@ body{
     justify-content: space-around;
 }
 @media only screen and (max-width: 768px) {
-   
     .text2{
         font-size: 15px;
     }
     .top_class{
-        margin-left: 15%;
+        /* margin-left: 15%; */
     }
     .button{
         width: 50%;
+    }
+    .side{
+        position: static; 
+        width: 100%;
+        top: 0;
+        /* left: 50%; */
+        margin-left: 5%;
     }
 }
 .writh{
